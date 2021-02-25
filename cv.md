@@ -16,4 +16,3 @@ Basic [Hexlet](https://hexlet.io) courses, basic [HTML Academy](https://htmlacad
 [https://github.com/feuiuxbe/From-zero-to-expert-programmer](https://github.com/feuiuxbe/From-zero-to-expert-programmer)
 #### Languages: 
 Russian, English and Spanish (+some Valenciano)
-.
