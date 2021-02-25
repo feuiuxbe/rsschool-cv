@@ -15,4 +15,4 @@ No professional programming experience. Right to work in Russia and Spain.
 Basic [Hexlet](https://hexlet.io) courses, basic [HTML Academy](https://htmlacademy.ru/) courses. I learn every day (preferrable when kids are at school): 
 [https://github.com/feuiuxbe/From-zero-to-expert-programmer](https://github.com/feuiuxbe/From-zero-to-expert-programmer)
 #### Languages: 
-Russian, English and Spanish (+some Valenciano).
+Russian, English and Spanish (+some Valenciano)
