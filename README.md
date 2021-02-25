@@ -1,2 +1,1 @@
-# rsschool-cv
-rsschool-cv assignments
+https://feuiuxbe.github.io/rsschool-cv/cv
