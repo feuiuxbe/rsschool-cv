@@ -1,3 +1,8 @@
+:root {
+  --resume-tag-style: #696969;
+  --resume-text-style: #3DFFDB;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,3 +14,59 @@ body {
   max-width: 1900px;
   background-color: #003F6C;
 }
+
+.container {
+  display: flex;
+  max-width: 1460px;
+  margin: 113px 225px 100px 225px;
+  background-color: #0674C5;
+}
+
+.title {
+  width: 100%;
+  max-width: 670px;
+}
+
+.title__header {
+  color: #FFFFFF;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  padding-top: calc(361px - 113px);
+  padding-left: 175px;
+  text-transform: uppercase;
+}
+
+.resume-container {
+  background: #181616;
+  box-shadow: 9.32528px 11.1903px 8.39275px 5.59517px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 590px;
+  height: 600px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 175px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.resume__style {
+  color: var(--resume-tag-style);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.resume__author {
+  color: var(--resume-text-style);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+}
+
