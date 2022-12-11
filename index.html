@@ -1,3 +1,7 @@
+<!-- header idea: you can choose different styling in the header and resume container will show content according to these styles -->
+<!-- to do: header ul>li>a navbar -->
+<!-- to do: footer with course logo, link to my github, (c)2022 -->
+<!-- to do: add foto that shows up on switching smth (tick or else) -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +17,7 @@
   </header>
   <div class="container">
     <section class="title">
-      <h1 class="title__header">Web Developer Resume/CV</h1>
+      <h1 class="title__header">Web Developer Resume/CV<span style="display: none;">Krivosheev Andrey</span></h1>
     </section>
     <section class="resume-container">
       <p class="resume__style">&lt;!DOCTYPE html&gt;</p>
@@ -23,21 +27,50 @@
       <p class="resume__position resume__tag">&nbsp;&nbsp;&lt;title&gt;<span class="resume__text">Front-end Developer</span>&lt;title&gt;</span></p>
       <p class="resume__tag">&lt;/head&gt;</p>
       <p class="resume__tag">&lt;body&gt;</p>
-      <p class="resume__section">&nbsp;&nbsp;<span class="resume__tag">&lt;</span>key-skills<span class="resume__tag">&gt;</span></p>
-      <ul class="resume__list">
-        <li class="resume__section-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>HTML<span class="resume__tag">&lt;/li&gt;</span></li>
-        <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Semantic, Accessibility</span>&lt;/p&gt;</li>
-        <li class="resume__section-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>CSS<span class="resume__tag">&lt;/li&gt;</span></li>
-        <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">BEM (incl. Nested BEM), Adaptive, Responsive </span>&lt;/p&gt;</li>
-        <li class="resume__section-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>JavaScript<span class="resume__tag">&lt;/li&gt;</span></li>
-        <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Core, Functional Programming, ES5, ES6+, DOM</span>&lt;/p&gt;</li>
-        <li class="resume__section-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>GIT<span class="resume__tag">&lt;/li&gt;</span></li>
-        <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Basic commands and Github pages deploy</span>&lt;/p&gt;</li>
-        <li class="resume__section-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>Figma<span class="resume__tag">&lt;/li&gt;</span></li>
-        <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Figma to HTML (incl. interactive)</span>&lt;/p&gt;</li>
-        <li class="resume__section-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>GIT<span class="resume__tag">&lt;/li&gt;</span></li>
-        <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Basic commands and Github pages deploy</span>&lt;/p&gt;</li>
-      </ul>
+      <article>
+        <p class="resume__article">&nbsp;&nbsp;<span class="resume__tag">&lt;</span>key-skills<span class="resume__tag">&gt;</span></p>
+        <ul class="resume__list">
+          <li class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>HTML<span class="resume__tag">&lt;/li&gt;</span></li>
+          <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Semantic, Accessibility</span>&lt;/p&gt;</li>
+          <li class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>CSS<span class="resume__tag">&lt;/li&gt;</span></li>
+          <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">BEM (incl. Nested BEM), Adaptive, Responsive</span>&lt;/p&gt;</li>
+          <li class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>JavaScript<span class="resume__tag">&lt;/li&gt;</span></li>
+          <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Core, Functional Programming, ES5, ES6+, DOM</span>&lt;/p&gt;</li>
+          <li class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>GIT<span class="resume__tag">&lt;/li&gt;</span></li>
+          <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Basic commands and Github pages deploy</span>&lt;/p&gt;</li>
+          <li class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>Figma<span class="resume__tag">&lt;/li&gt;</span></li>
+          <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Figma to HTML (incl. interactive)</span>&lt;/p&gt;</li>
+          <li class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>GIT<span class="resume__tag">&lt;/li&gt;</span></li>
+          <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Basic commands and Github pages deploy</span>&lt;/p&gt;</li>
+          <li class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;li&gt;</span>Email Developer<span class="resume__tag">&lt;/li&gt;</span></li>
+          <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<span class="resume__text resume__text_small">Hybrid, Responsive, Apple Mail, Gmail, Outlook</span>&lt;/p&gt;</li>
+        </ul>
+        <p class="resume__tag">&nbsp;&nbsp;&lt;/key-skills&gt;</p>
+      </article>
+      <article>
+        <p class="resume__article">&nbsp;&nbsp;<span class="resume__tag">&lt;</span>experience<span class="resume__tag">&gt;</span></p>
+
+          <h2 class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;h2&gt;</span>Front-end and Email Developer Freelance<span class="resume__tag">&lt;/h2&gt;</span></h2>
+          <p class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;time&gt;<span class="resume__text resume__text_small"><time datetime="2022-02-24 05:00">24.02.2022</time> - now</span>&lt;/time&gt;</p>
+
+        <p class="resume__tag">&nbsp;&nbsp;&lt;/experience&gt;</p>
+      </article>
+      <article>
+        <p class="resume__article">&nbsp;&nbsp;<span class="resume__tag">&lt;</span>portfolio<span class="resume__tag">&gt;</span></p>
+
+          <h2 class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;h2&gt;</span>Link to my portfolio on Github<span class="resume__tag">&lt;/h2&gt;</span></h2>
+          <p class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&gt;<span class="resume__text resume__text_small"><a class="resume__link" href="https://github.com/feuiuxbe/portfolio">click here</a></span>&lt;/a&gt;</p>
+
+        <p class="resume__tag">&nbsp;&nbsp;&lt;/portfolio&gt;</p>
+      </article>
+      <article>
+        <p class="resume__article">&nbsp;&nbsp;<span class="resume__tag">&lt;</span>education<span class="resume__tag">&gt;</span></p>
+        <ul class="resume__list">
+          <li class="resume__article-item">&nbsp;&nbsp;&nbsp;&nbsp;<span class="resume__tag">&lt;h2&gt;</span>RS School Preschool<span class="resume__tag">&lt;/h2&gt;</span></li>
+          <li class="resume__tag">&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&gt;<span class="resume__text resume__text_small"><time><a class="resume__link" href="https://app.rs.school/certificate/cy3zhy10">2022Q2</a></time></span>&lt;/a&gt;</li>
+        </ul>
+        <p class="resume__tag">&nbsp;&nbsp;&lt;/education&gt;</p>
+      </article>
       <p class="resume__tag">&lt;/body&gt;</p>
       <p class="resume__tag">&lt;/html&gt;</p>
     </section>

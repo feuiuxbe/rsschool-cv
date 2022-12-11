@@ -95,7 +95,7 @@ body {
   font-size: 18px;
 }
 
-.resume__section {
+.resume__article {
   color: var(--resume-section);
   font-family: 'Arial';
   font-style: normal;
@@ -104,7 +104,7 @@ body {
   line-height: 20px;
 }
 
-.resume__section-item {
+.resume__article-item {
   color: var(--resume-text-highlighted);
   font-family: 'Arial';
   font-style: normal;
@@ -115,4 +115,10 @@ body {
 
 .resume__list {
   list-style: none;
+}
+
+.resume__link,
+.resume__link:visited {
+  text-decoration: none;
+  color: var(--light);
 }
