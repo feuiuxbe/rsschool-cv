@@ -1,6 +1,8 @@
 :root {
-  --resume-tag-style: #696969;
-  --resume-text-style: #3DFFDB;
+  --resume-tag: #696969;
+  --resume-text-highlighted: #3DFFDB;
+  --resume-section: #0094FF;
+  --light: #FFFFFF;
 }
 
 * {
@@ -13,12 +15,13 @@ body {
   width: 100%;
   max-width: 1900px;
   background-color: #003F6C;
+  margin: 0 auto;
 }
 
 .container {
   display: flex;
   max-width: 1460px;
-  margin: 113px 225px 100px 225px;
+  margin: 113px auto 100px auto;
   background-color: #0674C5;
 }
 
@@ -28,7 +31,7 @@ body {
 }
 
 .title__header {
-  color: #FFFFFF;
+  color: var(--light);
   font-family: 'Arial';
   font-style: normal;
   font-weight: 700;
@@ -44,7 +47,7 @@ body {
   box-shadow: 9.32528px 11.1903px 8.39275px 5.59517px rgba(0, 0, 0, 0.25);
   width: 100%;
   max-width: 590px;
-  height: 600px;
+  min-height: 600px;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 175px;
@@ -53,20 +56,63 @@ body {
 }
 
 .resume__style {
-  color: var(--resume-tag-style);
+  color: var(--resume-tag);
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .resume__author {
-  color: var(--resume-text-style);
+  color: var(--resume-text-highlighted);
   font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 22px;
+  line-height: 22px;
 }
 
+.resume__tag {
+  color: var(--resume-tag);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__text {
+  color: var(--light);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__text_small {
+  font-size: 18px;
+}
+
+.resume__section {
+  color: var(--resume-section);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__section-item {
+  color: var(--resume-text-highlighted);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__list {
+  list-style: none;
+}
