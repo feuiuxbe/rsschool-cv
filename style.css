@@ -28,6 +28,10 @@ body {
   margin: 0 auto;
 }
 
+.italic {
+  font-style: italic !important;
+}
+
 .container {
   display: flex;
   max-width: 1460px;
