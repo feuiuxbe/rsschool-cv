@@ -59,6 +59,7 @@ body {
   max-width: 590px;
   height: 600px;
   overflow-y: scroll;
+  scrollbar-color: rgb(214, 37, 152) #181616;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 175px;
