@@ -5,6 +5,10 @@
   --light: #FFFFFF;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -47,7 +51,8 @@ body {
   box-shadow: 9.32528px 11.1903px 8.39275px 5.59517px rgba(0, 0, 0, 0.25);
   width: 100%;
   max-width: 590px;
-  min-height: 600px;
+  height: 600px;
+  overflow-y: scroll;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-right: 175px;
