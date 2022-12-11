@@ -6,7 +6,13 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0px;
+  width: 10px;
+  height: 8px;
+  background-color: #181616; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(214, 37, 152); /* pantone pink, fellows */
 }
 
 * {
@@ -25,7 +31,7 @@ body {
 .container {
   display: flex;
   max-width: 1460px;
-  margin: 113px auto 100px auto;
+  margin: 113px auto 0 auto;
   background-color: #0674C5;
 }
 
