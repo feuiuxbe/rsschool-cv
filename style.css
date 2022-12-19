@@ -154,6 +154,7 @@ body {
   left: 200px;
   display: flex;
   flex-direction: row;
+  color: var(--light);
 }
 
 .header__list-item {
@@ -161,6 +162,11 @@ body {
   padding-left: 50px;
   list-style: none;
   color: var(--light);
+}
+
+.header__list-item > a {
+  color: var(--light);
+  text-decoration: none;
 }
 
 .footer {
