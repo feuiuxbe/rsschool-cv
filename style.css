@@ -5,6 +5,10 @@
   --light: #FFFFFF;
 }
 
+main {
+  display: flex;
+}
+
 ::-webkit-scrollbar {
   width: 10px;
   height: 8px;
