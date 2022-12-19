@@ -138,3 +138,23 @@ body {
   text-decoration: none;
   color: var(--light);
 }
+
+.header {
+  position: relative;
+}
+
+.header__list-container {
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__list-item {
+  width: 100px;
+  padding-left: 50px;
+  list-style: none;
+  color: var(--light);
+}
