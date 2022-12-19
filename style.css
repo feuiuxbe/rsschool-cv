@@ -1,0 +1,196 @@
+:root {
+  --resume-tag: #696969;
+  --resume-text-highlighted: #3DFFDB;
+  --resume-section: #0094FF;
+  --light: #FFFFFF;
+}
+
+main {
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+  background-color: #181616; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(214, 37, 152); /* pantone pink, fellows */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 1900px;
+  background-color: #003F6C;
+  margin: 0 auto;
+}
+
+.italic {
+  font-style: italic !important;
+}
+
+.container {
+  display: flex;
+  max-width: 1460px;
+  margin: 55px auto 0 auto;
+  background-color: #0674C5;
+}
+
+.title {
+  width: 100%;
+  max-width: 670px;
+}
+
+.title__header {
+  color: var(--light);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+  padding-top: calc(361px - 113px);
+  padding-left: 175px;
+  text-transform: uppercase;
+}
+
+.resume-container {
+  background: #181616;
+  box-shadow: 9.32528px 11.1903px 8.39275px 5.59517px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 590px;
+  height: 600px;
+  overflow-y: scroll;
+  scrollbar-color: rgb(214, 37, 152) #181616;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 175px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.resume__style {
+  color: var(--resume-tag);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__author {
+  color: var(--resume-text-highlighted);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.resume__tag {
+  color: var(--resume-tag);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__text {
+  color: var(--light);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__text_small {
+  font-size: 18px;
+}
+
+.resume__article {
+  color: var(--resume-section);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__article-item {
+  color: var(--resume-text-highlighted);
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.resume__list {
+  list-style: none;
+}
+
+.resume__link,
+.resume__link:visited {
+  text-decoration: none;
+  color: var(--light);
+}
+
+.header {
+  position: relative;
+}
+
+.header__list-container {
+  width: auto;
+  position: absolute;
+  top: 30px;
+  left: 200px;
+  display: flex;
+  flex-direction: row;
+  color: var(--light);
+}
+
+.header__list-item {
+  width: 100px;
+  padding-left: 50px;
+  list-style: none;
+  color: var(--light);
+}
+
+.header__list-item > a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer__list-container {
+  width: auto;
+  position: absolute;
+  bottom: 10px;
+  right: 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__list-item {
+  width: 100px;
+  padding-left: 150px;
+  list-style: none;
+  color: var(--light);
+}
+
+.rs-logo {
+  margin-left: 350px;
+  margin-bottom: 30px;
+  transform: rotate(-30deg);
+}
